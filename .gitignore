@@ -1,0 +1,34 @@
+# ===== 运行时数据：首次运行自动生成，不进仓库 =====
+**/data/tasks.json
+**/data/*.tmp
+**/data/tasks_backup_*.json
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# ===== 环境变量与密钥 =====
+.env
+.env.local
+.env.*.local
+
+# ===== 编辑器与系统 =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ===== 日志 =====
+*.log
+npm-debug.log*
+
+# ===== AI 助手的本地配置（含本机路径，不共享）=====
+.claude/
